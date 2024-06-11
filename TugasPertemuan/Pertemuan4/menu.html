@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout with Float and Forms Design</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .dropbtn {
+        background-color: rgb(117, 58, 16);
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 200px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: rgb(100, 50, 14);
+        background-color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {background-color: rgb(100, 50, 14)}
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .dropdown:hover .dropbtn {
+        background-color:  rgb(100, 50, 14);
+        width: auto;
+    }
+
+    .selected-navbar {
+        background-color: sienna;
+        color: white;
+        width: auto;
+        padding: 10px;
+    }
+
+    .selected-navbar:hover{
+        background-color: sienna;
+        color: white;
+        width: auto;
+        padding: 10px;
+    }
+
+    .avatar {
+        float: left;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+
+    #menu {
+        column-count: 5;
+        column-gap: normal;
+    }
+
+    img.products {
+        width: 130px;
+        height: 130px;
+    }
+
+    figcaption.caption {
+        text-align: left;
+        font-size: 14.5px;
+    }
+
+</style>
+</head>
+<body>
+    <header>
+        <img src="img/logo.webp" alt="logo">
+        <h1>
+            Email : catcafe.id<br>
+            Phone number : 0812-3456-7890<br>
+            Location : Jl. Xxxxx, No. 123<br>
+        </h1>
+    </header>
+    
+    <nav class="navigation-bar">
+        <hr>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#" class="selected-navbar">Menu</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <a href="login.html"><button class="a">Sign In</button></a>
+            <a href="registration.html"><button class="b">Sign Up</button></a>
+        </ul>
+        <hr>
+    </nav>
+    
+    <aside>
+        <div class="dropdown">
+            <button class="dropbtn">Sidebar Menu</button>
+            <div class="dropdown-content">
+                <h2><img src="img/avatar.jpg" alt="Avatar" class="avatar">Name</h2><br>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="order.html">Order</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </aside>
+    
+    <main>
+        <h2 style="text-align: center;">Menu</h2>
+        <p style="text-align: center; font-weight: lighter;">View our menu here.</p><br>
+        <hr><br>
+        <form action="#" method="post">
+            <strong style="text-align: center;">Coffee</strong><br>
+            <div id="menu">
+                <p style="font-size: 20px;">
+                    <figure>
+                        <figcaption class="caption"><img src="img/americano.webp" alt="Menu" class="products"><br>Americano - Hot/Iced Rp. 20k/25k</figcaption>
+                    </figure>
+                    <figure>
+                        <figcaption class="caption"><img src="img/latte.jpg" alt="Menu" class="products"><br>Latte - Hot/Iced Rp. 20k/25k</figcaption>
+                    </figure>
+                    <figure>
+                        <figcaption class="caption"><img src="img/mocha.jpg" alt="Maenu" class="products"><br>Mocha - Hot/Iced Rp. 23k/28k</figcaption>
+                    </figure>
+                    <figure>
+                        <figcaption class="caption"><img src="img/cappucino.jpeg" alt="Menu" class="products"><br>Cappucino - Hot/Iced Rp. 20k/25k</figcaption>
+                    </figure>
+                    <figure>
+                        <figcaption class="caption"><img src="img/caramel-macchiato.jpg" alt="Maenu" class="products"><br>Caramel Macchiato - Hot/Iced Rp. 25k/30k</figcaption>
+                    </figure>
+                    <br>
+                </p>
+            </div>
+
+            <hr><br>
+
+            <strong style="text-align: center;">Tea</strong><br>
+            <div id="menu">
+                <p style="font-size: 20px;">
+                    <figure>
+                        <figcaption class="caption"><img src="img/black-tea.jpg" alt="Menu" class="products"><br>Black Tea - Hot/Iced Rp. 15k/18k</figcaption>
+                    </figure>
+                    <figure>
+                        <figcaption class="caption"><img src="img/green-tea.jpg" alt="Menu" class="products"><br>Green Tea - Hot/Iced Rp. 15k/18k</figcaption>
+                    </figure>
+                    <figure>
+                        <figcaption class="caption"><img src="img/matcha.jpg" alt="Menu" class="products"><br>Matcha Latte - Hot/Iced Rp. 20k/25k</figcaption>
+                    </figure>
+                    <figure>
+                        <figcaption class="caption"><img src="img/chamomile.jpeg" alt="Maenu" class="products"><br>Chamomile - Hot/Iced Rp. 15k/18k</figcaption>
+                    </figure>
+                    <figure>
+                        <figcaption class="caption"><img src="img/milk-tea.jpeg" alt="Maenu" class="products"><br>Milk Tea - Hot/Iced Rp. 16k/20k</figcaption>
+                    </figure>
+                    <br>
+                </p>
+            </div>
+
+            <hr><br>
+
+            <strong style="text-align: center;">Desserts</strong><br>
+            <div id="menu">
+                <p style="font-size: 20px;">
+                    <figure>
+                        <figcaption class="caption"><img src="img/cupcake.jpg" alt="Product" class="products"><br>Cupcake (any toppings) - Rp. 20k/pcs</figcaption>
+                    </figure>
+                    <figure>
+                        <figcaption class="caption"><img src="img/donut.jpg" alt="Product" class="products"><br>Donut (Chocolate / Strawberry / Sugar) - Rp. 15k/pcs</figcaption>
+                    </figure>
+                    <figure>
+                        <figcaption class="caption"><img src="img/cake.jpeg" alt="Product" class="products"><br>Cake (Chocolate / Tiramisu / Strawberry / Cheese / Matcha) - Rp. 25k/slice</figcaption>
+                    </figure>
+                    <figure>
+                        <figcaption class="caption"><img src="img/roll-cake.jpg" alt="Product" class="products"><br>Roll Cake Slice (Chocolate / Strawberry / Cheese / Matcha) - Rp. 15k/slice</figcaption>
+                    </figure>
+                    <figure>
+                        <figcaption class="caption"><img src="img/ice-cream.jpg" alt="Product" class="products"><br>Ice Cream (Chocolate / Strawberry / Vanilla / Matcha)- Rp. 10k/scoop (up to 5 scoops)</figcaption>
+                    </figure>
+                    <br>
+                </p>
+            </div>
+                
+        </form>
+            
+    </main>
+    
+    <footer>
+        <p>&copy; 2024. All Rights Reserved.</p>
+    </footer>
+    
+</body>
+</html>
