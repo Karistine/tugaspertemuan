@@ -1,0 +1,133 @@
+body{
+    background: #35A9DB;
+    font-family: roboto;
+    text-align: center;
+    color: #fff;
+}
+ 
+.ketengah{
+    margin: 10px auto;
+    width: 1150px;
+}
+ 
+ 
+@font-face {
+        font-family: tulisan_keren;
+        src: url(BodoniFLF-Bold.ttf);
+}
+
+.font-khusus{
+    font-family: 'tulisan_keren';
+    font-size: 70pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: tulisan_keren_1;
+    src: url(Avensy\ PERSONAL\ USE\ ONLY!.otf);
+}
+
+.font-khusus-1{
+    font-family: 'tulisan_keren_1';
+    font-size: 60pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: tulisan_keren_2;
+    src: url(Avensio\ PERSONAL\ USE\ ONLY!.otf);
+}
+
+.font-khusus-2{
+    font-family: 'tulisan_keren_2';
+    font-size: 60pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: tulisan_keren_3;
+    src: url(Night\ History.otf);
+}
+
+.font-khusus-3{
+    font-family: 'tulisan_keren_3';
+    font-size: 60pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: tulisan_keren_4;
+    src: url(Melisa\ Script.otf);
+}
+
+.font-khusus-4{
+    font-family: 'tulisan_keren_4';
+    font-size: 50pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: tulisan_keren_5;
+    src: url(Baby\ Chubby.otf);
+}
+
+.font-khusus-5{
+    font-family: 'tulisan_keren_5';
+    font-size: 50pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: tulisan_keren_6;
+    src: url(Summer\ Quotes\ Demo.otf);
+}
+
+.font-khusus-6{
+    font-family: 'tulisan_keren_6';
+    font-size: 50pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: tulisan_keren_7;
+    src: url(Downtown.otf);
+}
+
+.font-khusus-7{
+    font-family: 'tulisan_keren_7';
+    font-size: 40pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: tulisan_keren_8;
+    src: url(Aostiva\ PERSONAL\ USE\ ONLY!.otf);
+}
+
+.font-khusus-8{
+    font-family: 'tulisan_keren_8';
+    font-size: 40pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: tulisan_keren_9;
+    src: url(Survalyn\ PERSONAL\ USE\ ONLY!.otf);
+}
+
+.font-khusus-9{
+    font-family: 'tulisan_keren_9';
+    font-size: 40pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: tulisan_keren_10;
+    src: url(Blackmoon\ Font\ DEMO.ttf);
+}
+
+.font-khusus-10{
+    font-family: 'tulisan_keren_10';
+    font-size: 40pt;
+    font-variant: inherit;
+}

@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header, footer {
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+
+@font-face {
+    font-family: e-commerce_name;
+    src: url(Anton.ttf);
+}
+
+header h1.font-e-commerce-name-230060004{
+    font-family: 'e-commerce_name';
+    font-size: 35pt;
+    font-variant: inherit;
+}
+
+nav {
+    width: 100%;
+    background: white;
+    color: mediumblue;
+    padding: 5px;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 150px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 1em 0;
+}
+
+nav ul li.selected-230060004 {
+    background-color: mediumblue;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+
+nav ul li.selected-230060004 a {
+    text-decoration: none;
+    background-color: mediumblue;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+
+nav ul li.selected-230060004 a:hover {
+    background-color: mediumblue;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 0, 188);
+}
+
+nav ul a button.a-230060004 {
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    background: mediumblue;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+nav ul a button.a-230060004:hover {
+    opacity: 0.8;
+}
+
+nav ul a button.b-230060004 {
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    background: none;
+    color: mediumblue;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+nav ul a button.b-230060004:hover {
+    opacity: 0.8;
+}
+
+table, th, td {
+    margin: 5px auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+nav input[type="submit"] {
+    float: right;
+    width: auto;
+    background: #444;
+    color: white;
+    border: none;
+    padding: 0.7em 1.5em;
+    cursor: pointer;
+}
+
+main {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background: #ffffff;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@font-face {
+    font-family: font-top-3;
+    src: url(STEINEMI.ttf);
+}
+
+main h4.font-top3-230060004 {
+    font-family: 'font-top-3';
+    font-size: 20pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: font-about-us;
+    src: url(Modern\ Green.otf);
+}
+
+main h2.font-about-us {
+    font-family: 'font-about-us';
+    font-size: 28pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: font-categories;
+    src: url(GistLight.otf);
+}
+
+main h2.font-categories-230060004 {
+    font-family: 'font-categories';
+    font-size: 28pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: font-furniture-list;
+    src: url(Gruppo-Regular.ttf);
+}
+
+main p.font-furniture-list-230060004 {
+    font-family: 'font-furniture-list';
+    font-size: 16pt;
+    font-weight: bolder;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: font-furniture-category;
+    src: url(STEINEMB.ttf);
+}
+
+main button h4.font-furniture-category-230060004 {
+    font-family: 'font-furniture-category';
+    font-size: 14pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: font-order;
+    src: url(Exo-Black.ttf);
+}
+
+main form h2.font-order-230060004 {
+    font-family: 'font-order';
+    font-size: 28pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: font-contact;
+    src: url(MedulaOne-Regular.ttf);
+}
+
+main section h2.font-contact-230060004 {
+    font-family: 'font-contact';
+    font-size: 28pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: font-feedback;
+    src: url(MedulaOne-Regular.ttf);
+}
+
+form h2.font-feedback-230060004 {
+    font-family: 'font-feedback';
+    font-size: 28pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: font-signin;
+    src: url(Economica-BoldItalic.ttf);
+}
+
+form div h2.font-signin-230060004 {
+    font-family: 'font-signin';
+    font-size: 24pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: font-signup;
+    src: url(Economica-BoldItalic.ttf);
+}
+
+form div div h2.font-signup-230060004 {
+    font-family: 'font-signup';
+    font-size: 24pt;
+    font-variant: inherit;
+}
+
+@font-face {
+    font-family: font-fill-the-form;
+    src: url(Economica-Regular.ttf);
+}
+
+form div div p.font-fill-the-form {
+    font-family: 'font-fill-the-form';
+    font-size: 16pt;
+    font-variant: inherit;
+}
+
+.home-230060004 {
+    background-size: cover;
+    color: black;
+    text-align: center;
+}
+
+.shopnowbutton-230060004 {
+    justify-content: center;
+    background-color: rgb(20, 20, 187);
+    border-radius: 10px;
+    border: none;
+    font-size: 24px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.shopnowbutton-230060004:hover {
+    background-color: navy;
+}
+
+footer {
+    clear: both;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+@font-face {
+    font-family: font-footer;
+    src: url(Righteous-Regular.ttf);
+}
+
+footer.font-footer-230060004{
+    font-family: 'font-footer';
+    font-size: 14pt;
+    font-variant: inherit;
+}
+
+form label {
+    text-align: left;
+    display: block;
+    margin-top: 1em;
+    padding: 5px;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+form input[type="submit"] {
+    width: auto;
+    background: mediumblue;
+    color: #fff;
+    border: none;
+    padding: 0.7em 1.5em;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background: rgb(0, 0, 171);
+}
