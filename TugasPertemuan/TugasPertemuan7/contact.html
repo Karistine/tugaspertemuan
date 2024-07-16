@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mid Test</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Internal CSS */
+        /* Container For Contact Information */
+        .container-230060004 {
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.902);
+        }
+
+        /* Form */
+        .form-230060004 {
+            max-width: 500px;
+            margin: auto;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-color: mediumblue;
+            border-style: outset;
+            border-width: 3px;
+        }
+
+        @media (max-width: 500px) {
+            select, input, label, textarea {
+                font-size: 0.85em;
+            }
+            .feedback_230060004 {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="font-e-commerce-name-230060004">
+            K's Furniture E-Commerce
+        </h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li class="selected-230060004"><a href="#">Contact</a></li>
+            <a href="login.html"><button class="a-230060004">Sign In</button></a>
+            <a href="registration.html"><button class="b-230060004">Sign Up</button></a>
+        </ul>
+    </nav>
+    
+    <main style="background: url(img/background3.jpg) center; background-size: cover;">
+        <section class="container-230060004">
+            <h2 class="font-contact-230060004">Contact Us</h2>
+            <hr>
+            <table style="max-width: 100%;">
+                <tr>
+                    <th colspan="2">Contact Information</th>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>k-furniture.e-commerce@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Phone Number</td>
+                    <td>0813-4567-8900</td>
+                </tr>
+                <tr>
+                    <td>Instagram</td>
+                    <td>@k-furniture.e-commerce</td>
+                </tr>
+                <tr>
+                    <td>Location</td>
+                    <td>Jl. Xxx, No. 1</td>
+                </tr>
+            </table>
+            <br>
+        </section>
+        <br>
+        <form action="#" method="post" class="form-230060004">
+            <h2 class="font-feedback-230060004">Feedback</h2>
+            <p class="feedback_230060004">Have any feedback? Feel free to write anything!</p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="phone">Phone number:<br>Format: 08xx-xxxx-xxxx</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}" required><br>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="6" cols="50" required placeholder="Type your message here..."></textarea><br>
+
+            <label for="ratings">Ratings (between 1 and 10):</label>
+            <input type="range" style="accent-color: rgb(0, 0, 197);" id="ratings" name="ratings" min="1" max="10"><br>
+
+            <input type="submit" value="Send">
+        </form>
+            
+    </main>
+    
+    <footer class="font-footer-230060004">
+        <p>Copyright &copy; 2024 K's Furniture E-Commerce. All Rights Reserved.</p>
+    </footer>
+    
+</body>
+</html>
